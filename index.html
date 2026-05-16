@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ahmad Faris | Personal Blog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html" class="logo">AF<span class="dot">.</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">☀</button>
+    <button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="hero-tag">Welcome to my space</p>
+        <h1>Hi, I'm <span class="highlight">Ahmad Faris</span></h1>
+        <p class="hero-sub">A Computer Science student passionate about web development, technology, and sharing ideas through writing.</p>
+        <div class="hero-cta">
+          <a href="blog.html" class="btn btn-primary">Read My Blog</a>
+          <a href="about.html" class="btn btn-outline">About Me</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="avatar-card">
+          <div class="avatar">AF</div>
+          <p class="avatar-name">Ahmad Faris</p>
+          <p class="avatar-role">CS Student @ UniSZA</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured">
+      <h2 class="section-title">Latest Posts</h2>
+      <div class="posts-grid">
+        <article class="post-card">
+          <span class="post-tag">Web Dev</span>
+          <h3><a href="blog.html">Getting Started with HTML & CSS</a></h3>
+          <p>A beginner's guide to building your first webpage from scratch using HTML and CSS fundamentals.</p>
+          <div class="post-meta"><span>May 10, 2025</span><span>5 min read</span></div>
+        </article>
+        <article class="post-card">
+          <span class="post-tag">Tips</span>
+          <h3><a href="blog.html">Top 5 VS Code Extensions for Students</a></h3>
+          <p>Boost your productivity with these must-have Visual Studio Code extensions for programming students.</p>
+          <div class="post-meta"><span>May 5, 2025</span><span>4 min read</span></div>
+        </article>
+        <article class="post-card">
+          <span class="post-tag">GitHub</span>
+          <h3><a href="blog.html">Why Every Developer Needs a GitHub Profile</a></h3>
+          <p>Your GitHub profile is your digital resume. Here's why you should start building it today.</p>
+          <div class="post-meta"><span>April 28, 2025</span><span>3 min read</span></div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Ahmad Faris · Built with HTML, CSS & JS</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
