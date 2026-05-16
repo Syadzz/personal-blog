@@ -75,3 +75,4 @@ document.querySelectorAll('.post-card, .blog-post, .contact-card, .edu-card').fo
   el.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
   observer.observe(el);
 });
+. 
